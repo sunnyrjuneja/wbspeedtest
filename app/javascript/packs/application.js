@@ -8,3 +8,10 @@
 // layout file, like app/views/layouts/application.html.erb
 
 console.log('Hello World from Webpacker')
+
+import fontawesome from '@fortawesome/fontawesome'
+import solid from '@fortawesome/fontawesome-free-solid'
+import regular from '@fortawesome/fontawesome-free-regular'
+import brands from '@fortawesome/fontawesome-free-brands'
+
+fontawesome.library.add(solid, regular, brands)
